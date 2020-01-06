@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a35281-32b9-49bb-87a4-00c020fc2a20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonoVisualOdometry/IMG_20200106_161751537.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonoVisualOdometry/IMG_20200106_161755849.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonoVisualOdometry/getcameravideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonoVisualOdometry/getframes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonoVisualOdometry/undistort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feature-detection/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visual_odometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratchpad.py" beforeDir="false" afterPath="$PROJECT_DIR$/softmax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3-tf2" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3-tf2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3-tf2/data/meme_out.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3-tf2/data/street_out.jpg" beforeDir="false" />
@@ -15,31 +25,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_source/datacollection.py">
+        <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/getcameravideo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/getframes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensorflowdemo.py">
+        <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="100">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#835#853#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_source/check_ifcorrupt.py">
+        <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/undistort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -68,6 +90,15 @@
         <option value="$PROJECT_DIR$/datacollection.py" />
         <option value="$PROJECT_DIR$/tensorflowdemo.py" />
         <option value="$PROJECT_DIR$/scratchpad.py" />
+        <option value="$PROJECT_DIR$/feature-detection/visual_odometry.py" />
+        <option value="$PROJECT_DIR$/feature-detection/features.py" />
+        <option value="$PROJECT_DIR$/MonoVisualOdometry/undistory.py" />
+        <option value="$PROJECT_DIR$/MonoVisualOdometry/undistort.py" />
+        <option value="$PROJECT_DIR$/MonoVisualOdometry/camera.py" />
+        <option value="$PROJECT_DIR$/MonoVisualOdometry/getcameraframes.py" />
+        <option value="$PROJECT_DIR$/MonoVisualOdometry/getcameravideo.py" />
+        <option value="$PROJECT_DIR$/MonoVisualOdometry/getframes.py" />
+        <option value="$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py" />
       </list>
     </option>
   </component>
@@ -91,6 +122,11 @@
               <item name="SlamFeatures" type="b2602c69:ProjectViewProjectNode" />
               <item name="SlamFeatures" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SlamFeatures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SlamFeatures" type="462c0819:PsiDirectoryNode" />
+              <item name="MonoVisualOdometry" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -99,13 +135,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MonoVisualOdometry" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\SlamFeatures\MonoVisualOdometry" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\PycharmProjects\SlamFeatures\data_source" />
       <recent name="C:\Users\Admin\PycharmProjects\SlamFeatures" />
+      <recent name="C:\Users\Admin\PycharmProjects\SlamFeatures\data_source" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,8 +159,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scratchpad">
-    <configuration name="check_ifcorrupt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CameraMatrix">
+    <configuration name="CameraMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SlamFeatures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonoVisualOdometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Admin\PycharmProjects\SlamFeatures\data_source\check_ifcorrupt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datacollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SlamFeatures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +189,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonoVisualOdometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Admin\PycharmProjects\SlamFeatures\data_source\datacollection.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Admin\PycharmProjects\SlamFeatures\MonoVisualOdometry\getcameravideo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove_watermark" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getcameraframes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SlamFeatures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +210,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonoVisualOdometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Admin\PycharmProjects\SlamFeatures\data_source\check_ifcorrupt.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Admin\PycharmProjects\SlamFeatures\MonoVisualOdometry\getcameravideo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratchpad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="getframes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SlamFeatures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,11 +231,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonoVisualOdometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratchpad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonoVisualOdometry/getframes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorflowdemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="undistort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SlamFeatures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,11 +252,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MonoVisualOdometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflowdemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MonoVisualOdometry/undistort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scratchpad" />
-        <item itemvalue="Python.tensorflowdemo" />
-        <item itemvalue="Python.datacollection" />
-        <item itemvalue="Python.check_ifcorrupt" />
-        <item itemvalue="Python.remove_watermark" />
+        <item itemvalue="Python.CameraMatrix" />
+        <item itemvalue="Python.getframes" />
+        <item itemvalue="Python.getcameraframes" />
+        <item itemvalue="Python.camera" />
+        <item itemvalue="Python.undistort" />
       </list>
     </recent_temporary>
   </component>
@@ -251,13 +290,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,31 +314,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport chairs/1.3-seater-airport-chairs-500x500.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport chairs/4.Cheap-Price-Airport-Chair-Waiting-Chairs.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport pillars/1.architectural-detail-of-a-pillar-in-mumbai-international-airport-chhatrapati-shivaji-international-airport-terminal-2-which-was-designed-with-severa-PWC36G.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport pillars/2.1064617-futuristic-pillars-of-airport-ceiling-that-looks-like-a-wave.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport pillars/3.037756d22c4202d6e13ef896d58ccb20.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport pillars/7.img_1761.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downloads/airport pillars/12.102753572-low-angle-perspective-view-of-airport-facade-showing-pillars-supporting-corrugated-metal-roofing-hel.jpg" />
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport pillars/15.united-arab-emirates-dubai-airport-air-terminal-town-destination-airport-H48D8E.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_source/downloads/airport pillars/14.e1182c0f1dd3e1a9e3770d069f53d56d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_source/downloads/airport pillars/12.balloons_and_pillars.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -395,23 +410,6 @@
     <entry file="file://$PROJECT_DIR$/data_source/downloads/airport Travelator/3.maxresdefault.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scratchpad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_source/datacollection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_source/check_ifcorrupt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -422,10 +420,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_source/datacollection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitconfig.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tensorflowdemo.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature-detection/features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visual_odometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/undistory.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/IMG_20200106_161751537.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/IMG_20200106_161755849.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/undistort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame28.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame30.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame31391.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/getcameravideo.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/getframes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#835#853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
