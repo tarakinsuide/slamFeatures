@@ -1,0 +1,13 @@
+Training
+
+1. Find Camera calibration matrix and store the values 
+2. Video to frames
+3. Undistort the frames
+4. Implement FAST algo for feature detection
+5. Compare the current frame with the previous frame and implement KLT for feature tracking using Lucas Kanade Feature Tracker
+6. Recalibrate if the number of features go below a threshold after tracking
+7. Calculate Essential matrix (Find out why)
+8. Handle outliers by using RANSAC
+9. Compute Rotation matrix from essential matrix
+10. Compute the trajectory
+
