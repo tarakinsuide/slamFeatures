@@ -11,8 +11,7 @@ objp = np.zeros((6*7,3), np.float32)
 objp[:,:2] = np.mgrid[0:7,0:6].T.reshape(-1,2)
 
 # Arrays to store object points and image points from all the images.
-objpoints = [] # 3d point in real world space
-imgpoints = [] # 2d points in image plane.
+
 
 
 os.chdir(os.path.join(os.getcwd(), 'calibFrames'))
@@ -20,6 +19,8 @@ os.chdir(os.path.join(os.getcwd(), 'calibFrames'))
 images = glob.glob('*.jpg')
 
 for fname in images:
+    objpoints = []  # 3d point in real world space
+    imgpoints = []  # 2d points in image plane.
     img = cv2.imread(fname)
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
@@ -35,7 +36,15 @@ for fname in images:
 
         # Draw and display the corners
         img = cv2.drawChessboardCorners(img, (7,6), corners2,ret)
+        ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
+
+        print(mtx)
+        print(dist)
+        print(rvecs)
+        print(tvecs)
         cv2.imshow('img',img)
         cv2.waitKey(0)
+
+
 
 cv2.destroyAllWindows()

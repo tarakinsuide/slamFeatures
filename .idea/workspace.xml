@@ -2,7 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a35281-32b9-49bb-87a4-00c020fc2a20" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame240.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame290.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame330.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame390.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame430.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame440.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame460.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame470.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame480.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame510.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame520.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame530.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame540.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame560.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame570.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame580.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame590.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame610.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame620.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame650.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame660.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame670.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame680.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame710.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame720.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame730.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame740.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame760.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame770.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame780.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame790.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame810.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame820.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame830.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame840.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame850.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame860.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame870.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame880.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame910.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoVisualOdometry/calibFrames/frame930.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3-tf2" beforeDir="false" afterPath="$PROJECT_DIR$/yolov3-tf2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3-tf2/data/meme_out.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov3-tf2/data/street_out.jpg" beforeDir="false" />
@@ -38,7 +129,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -109,6 +204,12 @@
               <item name="SlamFeatures" type="b2602c69:ProjectViewProjectNode" />
               <item name="SlamFeatures" type="462c0819:PsiDirectoryNode" />
               <item name="MonoVisualOdometry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SlamFeatures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SlamFeatures" type="462c0819:PsiDirectoryNode" />
+              <item name="MonoVisualOdometry" type="462c0819:PsiDirectoryNode" />
+              <item name="calibFrames" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,14 +375,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,7 +597,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MonoVisualOdometry/CameraMatrix.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
